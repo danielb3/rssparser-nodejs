@@ -1,3 +1,32 @@
+body {
+    font-family: "Courier", Times, serif;
+}
 h1 {
-    color: red;
+    color: black;
+    text-align: center;
+    margin: 21.440px 0 10px 0
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+    margin: 10px 0 19.920px 0
+}
+
+img {
+    float: left;
+    padding: 10px;
+    clear: both;
+    height: 100px;
+    width: 200px;
+}
+
+.news-excerpt {
+    padding: 0 0 50px 0;
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: black;
+    font-size: 1.2em;
 }
