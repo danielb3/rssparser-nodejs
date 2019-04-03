@@ -10,7 +10,7 @@ app.get('/',function(req,res) {
     res.sendFile('index.html', { root: __dirname });
   });
 
-  app.get("/scrape", function(req, res) {
+app.get("/scrape", function(req, res) {
   axios({
     method:'get',
     url:'https://www.newsinlevels.com/',
