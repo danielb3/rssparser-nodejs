@@ -13,7 +13,7 @@ $(window).on('load', function() {
     });
 
     $("#demo").on("mouseover", function() {
-      $('a').miniPreview({ prefetch: 'none' });
+      $('a').miniPreview({ prefetch: 'pageload' });
     })
 
   });
